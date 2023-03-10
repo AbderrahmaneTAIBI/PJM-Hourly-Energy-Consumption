@@ -17,6 +17,8 @@ The code begins by importing the necessary libraries and loading the data from t
 
 ## Model Building:
 
+LightGBM (Light Gradient Boosting Machine) is a gradient boosting framework that is designed to be both efficient and scalable. It was developed by Microsoft and is widely used in data science and machine learning applications for various tasks, including classification, regression, and ranking.
+
 The LightGBM algorithm is used to build a model that predicts energy consumption for each zone. The data is split into training and testing datasets. The model is trained on the training dataset and evaluated on the testing dataset using the mean squared error and mean absolute error metrics.
 
 ## Hyperparameter Tuning:
