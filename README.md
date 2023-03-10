@@ -4,13 +4,14 @@ This repository contains code that analyzes hourly energy consumption data of 11
 
 ## Libraries used:
 
-pandas
-numpy
-matplotlib
-seaborn
-lightgbm
-sklearn
-Exploratory Data Analysis:
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* lightgbm
+* sklearn
+
+## Exploratory Data Analysis:
 
 The code begins by importing the necessary libraries and loading the data from the parquet file into a pandas dataframe. The first few rows and last few rows of the data are then printed to get an idea of the structure of the data. The dataframe's describe method is also called to get a summary of the statistical information about the data.
 
